@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="onTrackRightBicep" target="21" />
       <module name="task1_2P" target="21" />
     </bytecodeTargetLevel>
   </component>

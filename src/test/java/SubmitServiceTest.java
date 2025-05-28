@@ -24,4 +24,10 @@ public class SubmitServiceTest {
         assertEquals("error", result.get("status"));
         assertEquals("Missing input data", result.get("message"));
     }
+
+
+    @Test
+    public void testFailCase() {
+        assertEquals("Hello, fail", service.submitTask("Test","", "")); // This will fail
+    }
 }
