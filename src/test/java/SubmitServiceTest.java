@@ -26,8 +26,8 @@ public class SubmitServiceTest {
     }
 
 
-    /*@Test
+    @Test
     public void testFailCase() {
         assertEquals("Hello, fail", service.submitTask("Test","", "")); // This will fail
-    }*/
+    }
 }
